@@ -56,7 +56,7 @@ function Navbar() {
 
             {/* Mobile view */}
             <ul
-              className={`md:hidden bg-white absolute w-full h-screen top-20 left-0 transition-transform duration-500 ${
+              className={`md:hidden bg-white absolute w-full z-[100] h-screen top-20 left-0 transition-transform duration-500 ${
                 open ? "translate-x-0" : "-translate-x-full"
               } z-50`}
             >
