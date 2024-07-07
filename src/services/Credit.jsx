@@ -141,9 +141,11 @@ export default function Credit() {
             Get thorough insights into your candidate's financial history by
             running credit verifications
           </p>
+          <Link to='/contact-us' >
           <button className="text-center bg-blue text-white bg-blue-600 hover:bg-blue-800 rounded-2xl px-2 text-2xl font-bold ml-14 mt-4 lg:px-8 lg:text-4xl lg:py-2 lg:ml-36 lg:mt-12" data-aos="fade-up">
             VERIFY NOW
           </button>
+          </Link>
         </div>
       </div>
     </div>

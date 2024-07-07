@@ -221,7 +221,7 @@ const Employee = () => {
          verification, ensuring the integrity and
          reliability of your workforce.
         </p>
-        <Link to='/contact-us ' >
+        <Link to='/contact-us' >
               <button className="bg-blue-600 hover:bg-blue-800 px-4 mx-6  text-white  font-bold py-2 my-10  md:mt-24 rounded-xl text-3xl lg:p-6" data-aos="fade-up">
                 CONTACT US
               </button>

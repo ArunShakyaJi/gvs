@@ -1,6 +1,7 @@
 import React , {useEffect} from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 export default function Tenant() {
   useEffect(() => {
@@ -35,7 +36,11 @@ export default function Tenant() {
               </li>
             </ul>
 
-            <div className=' lg:my-10  '><button className='border-4 bg-blue-600 hover:bg-blue-800 mt-8 mb-4 lg:text-3xl lg:py-2 lg:ml-8 text-white px-8 rounded-[6px]'>Verify Your Tenant</button></div>
+            <div className=' lg:my-10  '>
+              <Link to='/contact-us'>
+              <button className='border-4 bg-blue-600 hover:bg-blue-800 mt-8 mb-4 lg:text-3xl lg:py-2 lg:ml-8 text-white px-8 rounded-[6px]'>Verify Your Tenant</button>
+              </Link>
+              </div>
           </div>
         </div>
         </div>

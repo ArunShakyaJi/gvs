@@ -51,7 +51,9 @@ function Navbar() {
               </div>
             </ul>
             <div className="md:block hidden ">
+              <Link to="/contact-us">
               <Button />
+              </Link>
             </div>
 
             {/* Mobile view */}
