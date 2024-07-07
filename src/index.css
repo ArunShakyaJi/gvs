@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'Futura-Bold';
+    src: url('../fonts/Futura-Bold.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family : 'Hallo';
+    src: url('/Poppins-Regular.ttf') format('truetype');
+  }
+}
+
+@layer utilities {
+  .hover-underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.3s;
+  }
+
+  .hover-underline:hover::after {
+    width: 100%;
+  }
+}
