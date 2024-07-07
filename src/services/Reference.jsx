@@ -63,7 +63,7 @@ export default function Reference() {
           </p>
 
           <ul className="list-none space-y-2 mt-8">
-            <li className="flex flex-col">
+            <li className="flex flex-col" data-aos="fade-up">
               <div className="flex items-start">
                 <img
                   src="/Reference/tick.png"
@@ -80,31 +80,31 @@ export default function Reference() {
                 assess whether a candidate is a good fit for the position.
               </p>
             </li>
-            <li className="flex flex-col">
+            <li className="flex flex-col" data-aos="fade-up">
               <div className="flex items-start">
                 <img
                   src="/Reference/tick.png"
                   alt="Tick Icon"
                   className="w-8 h-auto mr-2 mt-1"
                 />
-                <span className="text-xl font-semibold text-customBlue " data-aos="fade-up">
+                <span className="text-xl font-semibold text-customBlue " >
                   Hire qualified candidates
                 </span>
               </div>
-              <p className="ml-10 text-sm" data-aos="fade-up">
+              <p className="ml-10 text-sm" >
                 Employment reference checking before you hire helps give
                 <br /> you a realistic assessment of the candidate in the
                 <br /> workplace.
               </p>
             </li>
-            <li className="flex flex-col">
+            <li className="flex flex-col" data-aos="fade-up">
               <div className="flex items-start">
                 <img
                   src="/Reference/tick.png"
                   alt="Tick Icon"
                   className="w-8 h-auto mr-2 mt-1"
                 />
-                <span className="text-xl font-semibold text-customBlue " data-aos="fade-up">
+                <span className="text-xl font-semibold text-customBlue " d>
                   Perform due diligence
                 </span>
               </div>

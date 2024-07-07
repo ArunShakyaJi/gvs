@@ -19,15 +19,15 @@ const BackgrounCheck = () => {
     });})
   return (
     <div className='bg-white h-auto   overflow-hidden'>
-      <div className='container md:mx-20 py-12'>
-        <div className='mb-8 text-center md:mr-16'>
+      <div className='container  py-12'>
+        <div className='mb-8 flex flex-col justify-center items-center '>
           <h1 className='text-4xl font-bold text-gray-600' data-aos="fade-up">Our Services</h1>
           <p className='text-[#3faffa] font-[Rubik] text-xl font-regular shadow-custom-red mt-2 px-16' data-aos="fade-up">
           We provide various service to reduce fraud and build successful relationships based on trust. 
           </p>
         </div>
-        <div className='flex  flex-col md:flex-row justify-center items-start md:text-center px-16 md:px-0 md:items-center cursor-pointer'>
-          <div className='w-full md:w-1/3  text-2xl md:text-xl'>
+        <div className='flex  flex-col md:flex-row justify-center items-center  px-16 md:px-0  cursor-pointer'>
+          <div className='w-full md:w-1/3  text-2xl md:text-xl  md:px-24 px-10'>
           <Link to='/contact-us'>
             <div className='flex   justify-left items-center  mb-8' data-aos="fade-up">
               <BsPersonFillCheck className=' text-4xl text-black mr-3'/>
@@ -54,7 +54,7 @@ const BackgrounCheck = () => {
             </Link>
           </div>
           <div className='w-full md:w-1/2 md:mx-auto md:mb-8 hidden md:block' data-aos="fade-up">
-            <img src='./Home.jpg' alt='Client' className='mx-auto md:mx-10 w-96 h-auto' />
+            <img src='./Home.jpg' alt='Client' className=' mx-10  w-96 h-auto' />
           </div>
           <div className='w-full md:w-1/3  text-2xl md:text-xl'>
           <Link to='/contact-us'>

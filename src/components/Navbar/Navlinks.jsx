@@ -14,7 +14,6 @@ const Navlinks = () => {
 
   return (
     <>
-    
       {links.map((link, index) => (
         <div key={index}>
           <div className="px-3 text-left md:cursor-pointer group">
@@ -70,7 +69,6 @@ const Navlinks = () => {
                   <li key={sindex} className="py-2 pl-14">
                     <Link to={slink.route}>
                       <h1 className="font-semibold">{slink.name}</h1>
-
                     </Link>
                   </li>
                 ))}

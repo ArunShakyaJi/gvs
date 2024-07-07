@@ -16,13 +16,13 @@ function App() {
     //     <Route path='/education' element={<Education />} />
     //   </Routes>
     // </Router>
-    <>
+    <div className='overflow-x-hidden'>
     <Navbar />
     <main>
     <Outlet />
     </main>
     <Footer/>
-    </>
+    </div>
   )
 }
 
