@@ -14,22 +14,22 @@ function DriverVerification() {
       <section className="bg-slate-100 mb-10">
         <div className="flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-screen flex flex-col justify-start items-start">
-            <h1 data-aos="fade-up" className="text-3xl text-[#005b96] md:text-5xl font-[Poppins] font-semibold mx:10 md:mx-16 my-12 md:my-12 ">
+            <h1 data-aos="fade-up" className="text-3xl text-[#005b96] md:text-5xl  mx-5 font-[Poppins] font-semibold mx:10 md:mx-16 my-12 md:my-12 ">
               Driving Forward with Confidence and Security
             </h1>
 
-            <p className="text-xl font-semibold py-5 font-[Rubik]  text-black mx-16 md:pr-32 my-2 " data-aos="fade-up" >
+            <p className="text-xl font-semibold py-5 font-[Rubik] mx-5  text-black md:mx-16 md:pr-32 my-2 " data-aos="fade-up" >
               Trust GVS to verify your drivers, ensuring safety, reliability,
               and peace of mind for your organization and the public
             </p>
             <Link to="/contact-us">
-              <button data-aos="fade-up" className="bg-blue-600 text-white text-2xl my-10 font-[Rubik] mx:10 md:mx-16  px-4 py-2 rounded-lg">
+              <button data-aos="fade-up" className="bg-blue-600 mx-5  text-white text-2xl my-10 font-[Rubik] mx:10 md:mx-16  px-4 py-2 rounded-lg">
                 Verify Now
               </button>
             </Link>
             <div className="flex flex-col md:flex-row my-8" data-aos="fade-up">
-              <div className="flex mx:10 md:mx-16 w-1/2">
-                <p className="font-semibold text-xl">
+              <div className="flex  md:mx-16 w-1/2">
+                <p className="font-semibold text-xl  ml-10">
                   <span className="font-bold text-2xl">20+</span> <br />
                   Multinational businesses have used GVS
                 </p>
@@ -46,7 +46,7 @@ function DriverVerification() {
             <img
               src="/DriverCheck/carimage.png"
               alt="car Image"
-              className="w-auto px-8 md:px-0 md:py-0 py-8  md:max-w-[550px] md:h-auto h-[300px]"
+              className="w-auto md:px-0 md:py-0 py-8  md:max-w-[550px] md:h-auto h-auto"
             />
           </div>
         </div>
@@ -111,7 +111,7 @@ function DriverVerification() {
         <h1 className="text-center w-screen text-xl md:text-4xl lg:text-5xl font-semibold font-[Poppins]" data-aos="fade-up">
           Insights Gained from Previous Employment Verification
         </h1>
-        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24 mx-32 my-10 md:my-20">
+        <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24 mx-10 md:mx-32 my-10 md:my-20">
           <div className="flex flex-col justify-center items-start" data-aos="fade-up">
             <img src="/DriverCheck/8351119.jpg" className="w-14" />
             <p className="font-bold text-2xl py-2">Driving Licenses</p>
@@ -143,11 +143,11 @@ function DriverVerification() {
             />
           </div>
 
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <h2 className="text-2xl font-bold ml-4 lg:font-bold lg:text-5xl lg:mt-36 md:text-4xl md:mt-18" data-aos="fade-up">
               Verify your Driver <br /> with us?
             </h2>
-            <p className="text-lg ml-4 lg:text-2xl font-[Cabin] lg:mt-10 md:text-xl" data-aos="fade-up">
+            <p className="text-lg ml-4 lg:text-2xl font-[Cabin]  mt-10 md:text-xl" data-aos="fade-up">
               Trust GVS to verify your drivers, ensuring safety, reliability,
               and peace of mind for your organization and the public
             </p>

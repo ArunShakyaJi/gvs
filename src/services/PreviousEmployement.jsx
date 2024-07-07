@@ -13,25 +13,25 @@ function PreviousEmployement() {
       <section className="bg-slate-100 mb-10">
         <div className="flex flex-col md:flex-row ">
           <div className="md:w-1/2 w-screen flex flex-col justify-start items-start mt-12">
-            <h1 className="text-3xl text-[#005b96] md:text-5xl font-[Poppins] font-semibold mx:10 md:mx-16 my-12 md:my-12 " data-aos="fade-up">
+            <h1 className="text-3xl text-[#005b96] md:text-5xl mx-10 font-[Poppins] font-semibold mx:10 md:mx-16 my-12 md:my-12 " data-aos="fade-up">
               Employement track Record Check
             </h1>
-            <h5 data-aos="fade-up" className="text-black text-xl md:text-2xl font-semibold font-[Rubik] mx:10 md:mx-16  ">
+            <h5 data-aos="fade-up" className="text-black mx-10 text-xl md:text-2xl font-semibold font-[Rubik] mx:10 md:mx-16  ">
               Rapid Work History <br />
               Validation
             </h5>
-            <p data-aos="fade-up" className="text-sm text-black mx-16 md:pr-32 my-4">
+            <p data-aos="fade-up" className="text-sm text-black md:mx-16 mx-10 md:pr-32 my-4">
               Experience effortless ex-employee verification on autopilot -
               seamless, accurate, and lightning-fast. Tailored for trust-
               focused team leaders.
             </p>
             <Link to='/contact-us'>
-            <button data-aos="fade-up" className="bg-blue-600 text-white font-[Rubik] mx:10 md:mx-16  px-4 py-2 rounded-lg">
+            <button data-aos="fade-up" className="bg-blue-600 text-white  font-[Rubik] mx-10 md:mx-16  px-4 py-2 rounded-lg">
               Verify Now
             </button>
             </Link>
             <div data-aos="fade-up" className="flex flex-col md:flex-row my-8">
-              <div className="flex mx:10 md:mx-16 w-1/2">
+              <div className="flex mx-10 md:mx-16 w-1/2">
                 <p className="font-semibold text-xl">
                  <span className="font-bold text-xl">20+</span>  <br />
                   Multinational businesses have used Cashban
