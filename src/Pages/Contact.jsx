@@ -68,7 +68,12 @@ const Form = () => {
         return;
       }
 
-      // form.dateTime.value = new Date().toISOString();
+      // Set the current date and time to the hidden input
+      const currentDate = new Date().toLocaleDateString();
+      const currentTime = new Date().toLocaleTimeString();
+
+      form.currentDate.value = currentDate;
+      form.currentTime.value = currentTime;
 
       await fetch(scriptUrl, {
         method: "POST",
@@ -81,19 +86,20 @@ const Form = () => {
       notifyFalse();
     } finally {
       setLoading(false);
-      // formRef.current.reset();
+      formRef.current.reset();
     }
   };
 
   return (
     <>
       <div className="bg-gradient-to-tr from-zinc-50 to-blue-700 py-10 md:py-16 ">
-        <div className="flex flex-col justify-center items-center lg:flex-row bg-[#eefaff]  rounded-3xl shadow-lg md:mx-16 lg:mx-44 ">
-          <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center  object-fit " data-aos="fade-up">
+        <div className="flex flex-col justify-center items-center lg:flex-row bg-[#eefaff] rounded-3xl shadow-lg md:mx-16 lg:mx-44 ">
+          <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center" style={{ zIndex: 1 }} data-aos="fade-up">
             <img
               src="/contactImage.png"
-              className="transform scale-x-[-1] w-auto h-auto max-w-[400px] "
+              className="transform scale-x-[-1] w-auto h-auto max-w-[350px] "
               alt="Contact"
+              style={{ zIndex: 1 }}
             />
             <div className="w-[350px] flex flex-col">
               <div className="flex flex-row justify-start items-center gap-10 mb-4 bg-white rounded border-b-2 border-black shadow-lg py-2 px-3">
@@ -107,7 +113,7 @@ const Form = () => {
                 <MdEmail className="text-blue-700 size-8" />
                 <div className="flex flex-col">
                   <h1 className="font-[Rubik]">Email Address</h1>
-                  <p className="font-semibold">yogeshsbist@genuineservices.co.in</p>
+                  <p className="font-semibold ">yogeshsbist@genuineservices.co.in</p>
                 </div>
               </div>
               <div className="flex flex-row justify-start items-center gap-10 mb-4 bg-white rounded border-b-2 border-black shadow-lg py-2 px-3">
@@ -227,6 +233,19 @@ const Form = () => {
                     className="mt-1 block resize-none w-full p-2 border-b-2 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                   />
                 </div>
+
+                {/* Hidden input to store date and time */}
+                <input
+                  type="hidden"
+                  id="currentDate"
+                  name="Date"
+                />
+                <input
+                  type="hidden"
+                  id="currentTime"
+                  name="Time"
+                />
+
                 <div className="flex justify-center">
                   {loading ? (
                     <div className="w-full grid place-items-center my-4 py-2 px-5">

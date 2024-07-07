@@ -22,7 +22,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className="shadow-md drop-shadow-sm z-[99] ">
+      <nav className="shadow-md drop-shadow-sm z-50 relative ">
         <div className="bg-[#fdfdfd] ">
           <div className="flex items-center font-medium justify-around ">
             <div className="z-50  p-1 md:w-auto w-full flex justify-between items-center mr-5">

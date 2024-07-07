@@ -103,20 +103,19 @@ export default function Credit() {
             Credit Verifications
           </p>
 
-          <div className="flex flex-col md:flex-row items-center md:items-start pt-6  pl-4 lg:mt-8 md:space-y-0 md:space-x-4">
-            <div className=" lg:w-1/2 rounded-md  " data-aos="fade-up">
-              <img src="/CreditCheck/43.png" className="w-6 lg:w-8"   />
-              <p className="lg:text-xl mt-1">
-                Candidate’s complete
-                <br />
-                financial history.
+          <div className="flex flex-col md:flex-row items-start pt-6  md:pl-4 lg:mt-8 md:space-y-0 md:space-x-4">
+            
+
+            <div className=" lg:ml-4 rounded-md  md:w-1/2 ml-6 mt-3" data-aos="fade-up">
+              <img src="/CreditCheck/43.png" className="w-8 lg:w-10" />
+              <p className="lg:text-xl ">
+                Candidate's complete <br/> financial history.
               </p>
             </div>
-
             <div className=" lg:ml-4 rounded-md  md:w-1/2 ml-6 mt-4" data-aos="fade-up">
               <img src="/CreditCheck/44.png" className="w-8 lg:w-10" />
               <p className="lg:text-xl ">
-                Noticeable flags due to bad loans, bankruptcy or debts
+                Noticeable flags due to bad loans,<br/> bankruptcy or debts
               </p>
             </div>
           </div>
