@@ -116,6 +116,7 @@ const Note = styled.div`
   font-weight: 350;
   margin-bottom: 40px;
   color: #7c8e9a;
+  text-align: center;
 
 `;
 
