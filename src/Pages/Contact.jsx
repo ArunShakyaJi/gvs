@@ -92,7 +92,7 @@ const Form = () => {
           <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center" data-aos="fade-up">
             <img
               src="/contactImage.png"
-              className="transform scale-x-[-1] w-auto h-auto max-w-[400px]"
+              className="transform scale-x-[-1] w-auto h-auto max-w-[400px] z-none"
               alt="Contact"
             />
             <div className="w-[350px] flex flex-col">
