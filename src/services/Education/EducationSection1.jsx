@@ -25,7 +25,7 @@ const Section1 = () => {
           Empower your business with verified academic <br /> achievements and professional licenses.
         </p>
         <Link to='/contact-us'>
-        <button className="text-xl mt-4 px-6 py-2 mb-16 bg-customBlue  text-white font-semibold rounded-xl hover:bg-blue-700" data-aos="fade-up">
+        <button className="text-xl mt-4 px-6 py-2 mb-16 bg-blue-600 hover:bg-blue-800  text-white font-semibold rounded-xl " data-aos="fade-up">
           Contact Sales
         </button>
         </Link>

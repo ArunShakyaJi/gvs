@@ -26,7 +26,7 @@ export default function Credit() {
           </p>
 
           <Link to='/contact-us' className="flex justify-center md:justify-start md:ml-16">
-          <button className="text-center bg-blue-500 hover:bg-blue-700 text-white rounded-xl px-4 py-2 text-2xl font-bold  md:text-start  mt-10 lg:ml-200 lg:mt-16 lg:text-3xl my-16 " data-aos="fade-up">
+          <button className="text-center bg-blue-600 hover:bg-blue-800 text-white rounded-xl px-4 py-2 text-2xl font-bold  md:text-start  mt-10 lg:ml-200 lg:mt-16 lg:text-3xl my-16 " data-aos="fade-up">
             CONTACT US
           </button>
           </Link>
@@ -142,7 +142,7 @@ export default function Credit() {
             Get thorough insights into your candidate's financial history by
             running credit verifications
           </p>
-          <button className="text-center bg-blue text-white bg-blue-500 hover:bg-blue-700 rounded-2xl px-2 text-2xl font-bold ml-14 mt-4 lg:px-8 lg:text-4xl lg:py-2 lg:ml-36 lg:mt-12" data-aos="fade-up">
+          <button className="text-center bg-blue text-white bg-blue-600 hover:bg-blue-800 rounded-2xl px-2 text-2xl font-bold ml-14 mt-4 lg:px-8 lg:text-4xl lg:py-2 lg:ml-36 lg:mt-12" data-aos="fade-up">
             VERIFY NOW
           </button>
         </div>

@@ -31,7 +31,7 @@ const Verify1 = () => {
               to="/Contact-us"
               className="flex justify-center lg:justify-start  pt-10 "
             >
-              <button className="bg-[#3f47df] hover:bg-blue-800 text-white font-[Poppins] my-5 rounded-md font-bold text-xl px-4 py-2 lg:p-4 lg:mt-10 sm:p-2 sm:px-4 sm:py-2 " data-aos="fade-up">
+              <button className="bg-blue-600 hover:bg-blue-800 text-white font-[Poppins] my-5 rounded-md font-bold text-xl px-4 py-2 lg:p-4 lg:mt-10 sm:p-2 sm:px-4 sm:py-2 " data-aos="fade-up">
                 VERIFY TODAY
               </button>
             </Link>

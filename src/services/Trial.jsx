@@ -15,7 +15,7 @@ const Trial = () => {
             <p className="text-xl mb-4 text-center">
               Empower your business with verified academic <br /> achievements and professional licenses.
             </p>
-            <button className="text-xl mt-4 px-6 py-2 bg-customBlue text-white font-semibold rounded-xl hover:bg-blue-700">
+            <button className="text-xl mt-4 px-6 py-2 bg-blue-600 hover:bg-blue-800 text-white font-semibold rounded-xl ">
               Contact Sales
             </button>
 

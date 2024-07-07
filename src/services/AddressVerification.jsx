@@ -151,7 +151,7 @@ export default function Education() {
           <div className="flex flex-col md:flex-row justify-center items-center md:mx-16 my-8 " data-aos="fade-up">
             <div className="flex  items-center flex-col md:flex-row ">
               <div className="flex justify-center items-center  gap-x-4 border-dashed border-2 border-green-600  max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/25.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">The Candidate recive a link via sms  to kick start the verification process</span>
               </div>
               <FaLongArrowAltRight className="rotate-90 md:rotate-0 m-4 w-10" />
@@ -159,21 +159,21 @@ export default function Education() {
 
             <div className="flex justify-center  items-center flex-col md:flex-row  max-w-[463px] ">
               <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/26.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">On spot physical verification is performed.</span>
               </div>
               <FaLongArrowAltRight   className="rotate-90 md:rotate-0 m-4 w-10" />
             </div>
             <div className="flex justify-center  items-center flex-col md:flex-row ">
               <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-[300px] max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/27.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">Period of stay is ensured.</span>
               </div>
               <FaLongArrowAltRight  className="rotate-90 md:rotate-0 m-4 w-10" />
             </div>
             <div className="flex justify-center  items-center flex-col md:flex-row ">
               <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-auto max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/28.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">Identity Proof is requested to verify the address.</span>
               </div>
               
@@ -207,21 +207,21 @@ export default function Education() {
 
             <div className="flex justify-center  items-center flex-col md:flex-row  max-w-[463px] ">
               <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-[300px] max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/30.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">Location coordinate of residence are verified using GPS data.</span>
               </div>
               <FaLongArrowAltRight   className="rotate-90 md:rotate-0 m-4 w-10" />
             </div>
             <div className="flex justify-center  items-center flex-col md:flex-row ">
               <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-[300px] max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/31.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">The photo samples of their residence are captured and submitted </span>
               </div>
               <FaLongArrowAltRight  className="rotate-90 md:rotate-0 m-4 w-10 " />
             </div>
             <div className="flex justify-center  items-center flex-col md:flex-row ">
               <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-[300px] max-w-[300px] h-auto px-3 py-3 rounded-xl">
-              <img src="/AddressVerification/29.png" className="w-auto max-w-8"/>
+              <img src="/AddressVerification/32.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">Finally, Period of stay and Proofof address is verified.</span>
               </div>
               
@@ -252,7 +252,7 @@ export default function Education() {
           </p>
 
           <Link to="/contact-us">
-              <button className="bg-blue-600 text-white text-2xl my-10 font-[Rubik] mx:10 md:mx-16  px-4 py-2 rounded-lg" data-aos="fade-up">
+              <button className="bg-blue-600 hover:bg-blue-800 text-white text-2xl my-10 font-[Rubik] mx:10 md:mx-16  px-4 py-2 rounded-lg" data-aos="fade-up">
                 Verify Now
               </button>
             </Link>

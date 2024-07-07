@@ -50,7 +50,7 @@ export default function Criminal() {
               to="/Contact-us"
               className="flex justify-center lg:justify-start  pt-10 "
             >
-              <button className="bg-[#3f47df] hover:bg-blue-800 text-white font-[Poppins]  rounded-md font-bold text-xl px-4 py-2 lg:p-4 lg:mt-10 sm:p-2 sm:px-4 sm:py-2 " data-aos="fade-up">
+              <button className="bg-blue-600 hover:bg-blue-800 text-white font-[Poppins]  rounded-md font-bold text-xl px-4 py-2 lg:p-4 lg:mt-10 sm:p-2 sm:px-4 sm:py-2 " data-aos="fade-up">
                 VERIFY TODAY
               </button>
             </Link>
@@ -241,7 +241,7 @@ export default function Criminal() {
             safe and secure workplace.
           </p>
           <Link to="/contact-us">
-          <button className="text-2xl lg:ml-36 font-[Rubik] font-semibold px-4 text-white bg-customBlue hover:bg-blue-700 rounded-3xl hover:shadow-lg ml-18 my-24   lg:text-5xl lg:px-6 lg:py-4 md:text-4xl " data-aos="fade-up">
+          <button className="text-2xl lg:ml-36 font-[Rubik] font-semibold px-4 text-white bg-blue-600 hover:bg-blue-800 rounded-3xl hover:shadow-lg ml-18 my-24   lg:text-5xl lg:px-6 lg:py-4 md:text-4xl " data-aos="fade-up">
             CONTACT US
           </button>
           </Link>

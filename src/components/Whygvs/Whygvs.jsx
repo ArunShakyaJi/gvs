@@ -17,7 +17,7 @@ const Card = () => {
   return (
     <div>
       <div className='flex justify-center items-center bg-slate-200 py-4 '>
-      <h1 className='text-[#005b96] text-center font-semibold font-[Poppins] text-5xl my-10 mx-10 md:mx-1 drop-shadow pb-10' data-aos="fade-up">Why choose GVS</h1>
+      <h1 className='text-[#005b96] text-center font-semibold font-[Poppins] text-5xl my-10 mx-10 md:mx-1 drop-shadow pb-10' data-aos="fade-up">Why Choose GVS</h1>
       </div>
 
     <div className="flex flex-wrap justify-center items-center bg-slate-200 pb-16">

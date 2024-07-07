@@ -24,7 +24,7 @@ const Due = () => {
               navigate with certainty and seize opportunities.
             </p>
             <Link to="/contact-us">
-              <button className="text-xl mt-4 px-6 py-2 text-white font-semibold font-[Rubik]  cursor-pointer rounded-xl bg-blue-500 hover:bg-blue-700 lg:text-2xl lg:mr-96" data-aos="fade-up">
+              <button className="text-xl mt-4 px-6 py-2 text-white font-semibold font-[Rubik]  cursor-pointer rounded-xl bg-blue-600 hover:bg-blue-8000 lg:text-2xl lg:mr-96" data-aos="fade-up">
                 Contact Sales
               </button>
             </Link>
@@ -167,7 +167,7 @@ const Due = () => {
             alt=""
             className="w-full h-auto object-cover rounded-tl-lg rounded-br-none md:w-90 lg:w-120 xl:w-144"
           />
-          <button className="bg-customBlue text-white  px-6 ml-8 lg:px-8 rounded-full lg:text-4xl lg:font-bold lg:w-full lg:py-4" data-aos="fade-up">
+          <button className="bg-blue-600 hover:bg-blue-800 text-white  px-6 ml-8 lg:px-8 rounded-full lg:text-4xl lg:font-bold lg:w-full lg:py-4" data-aos="fade-up">
             Ensuring Financial Integrity<br></br>
             and Informed Decisions
           </button>
@@ -242,7 +242,7 @@ const Due = () => {
             ensuring clarity, mitigating risks, and paving the way for strategic
             growth and sustainable success in dynamic markets.
           </p>
-          <button className="text-2xl lg:text-4xl font-bold text-white px-4 bg-customBlue mx-8 mt-4 lg:mt-6 py-2  rounded-xl " data-aos="fade-up">
+          <button className="text-2xl lg:text-4xl font-bold text-white px-4 bg-blue-600 hover:bg-blue-800mx-8 mt-4 lg:mt-6 py-2  rounded-xl " data-aos="fade-up">
             CONTACT US
           </button>
         </div>

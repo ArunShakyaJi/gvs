@@ -131,7 +131,7 @@ Search</h1>
             Rely on GVS to ensure the integrity and reliability of your team, safeguarding your
             organization's reputation and operational excellence.
             </p>
-            <button data-aos="fade-up" className="mb-12  mx-5 rounded-lg md:mx-10 bg-blue-500 hover:bg-blue-700 px-5 font-[Rubik] font-semibold text-white text-xl  py-3">Verify Now</button>
+            <button data-aos="fade-up" className="mb-12  mx-5 rounded-lg md:mx-10 bg-blue-600 hover:bg-blue-800 px-5 font-[Rubik] font-semibold text-white text-xl  py-3">Verify Now</button>
           </div>
         </div>
       </section>

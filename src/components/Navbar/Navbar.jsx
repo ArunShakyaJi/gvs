@@ -163,7 +163,7 @@ function Navbar() {
                 </>
               </div>
               <div className="py-5">
-                <Button />
+               
               </div>
             </ul>
           </div>

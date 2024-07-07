@@ -24,7 +24,7 @@ export default function Reference() {
             hire the best candidates efficiently.
           </p>
           <Link to='/contact-us'>
-          <button data-aos="fade-up" className="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-2xl lg:text-2xl lg:px-4 mt-4  lg:my-12 lg:font-bold">
+          <button data-aos="fade-up" className="bg-blue-500 hover:bg-blue-800 text-white py-2 px-4 rounded-2xl lg:text-2xl lg:px-4 mt-4  lg:my-12 lg:font-bold">
             VERIFY NOW
           </button>
           </Link>
@@ -130,8 +130,9 @@ export default function Reference() {
           </p>
 
           <ul className="list-none space-y-4 mt-8">
-            <li className="flex flex-col justify-center items-cente lg:items-start">
-              <div className="flex lg:items-start ">
+          
+            <li className="flex flex-col  justify-center items-center lg:items-start">
+              <div className="flex items-start">
                 <img
                   src="/Reference/tick.png"
                   alt="Tick Icon"
@@ -139,13 +140,13 @@ export default function Reference() {
                   data-aos="fade-up"
                 />
                 <span className="text-2xl text-customBlue " data-aos="fade-up">
-                  Job per formance and skills
+                 Job performance and skills
                 </span>
               </div>
               <p className="ml-10" data-aos="fade-up">
-                Get more insight into strengths and weaknesses,
-                <br />
-                areas of improvement , as well as soft skills.
+                Get more insight into strengths and weaknesses, 
+                
+                areas of improvement as well as soft skills.
               </p>
             </li>
             <li className="flex flex-col  justify-center items-center lg:items-start">
@@ -221,7 +222,7 @@ export default function Reference() {
           </h2>
 
           <Link to= '/contact-us' className="flex justify-center md:justify-start">
-          <button data-aos="fade-up" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4   rounded-2xl lg:text-2xl lg:px-4 mt-4 lg:ml-50 lg:mt-8 lg:font-bold">
+          <button data-aos="fade-up" className="bg-blue-600 hover:bg-blue-800 text-white py-2 px-4   rounded-2xl lg:text-2xl lg:px-4 mt-4 lg:ml-50 lg:mt-8 lg:font-bold">
             VERIFY NOW
           </button>
           </Link>

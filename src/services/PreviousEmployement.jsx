@@ -26,7 +26,7 @@ function PreviousEmployement() {
               focused team leaders.
             </p>
             <Link to='/contact-us'>
-            <button data-aos="fade-up" className="bg-blue-600 text-white  font-[Rubik] mx-10 md:mx-16  px-4 py-2 rounded-lg">
+            <button data-aos="fade-up" className="bg-blue-600 hover:bg-blue-800 text-white  font-[Rubik] mx-10 md:mx-16  px-4 py-2 rounded-lg">
               Verify Now
             </button>
             </Link>
