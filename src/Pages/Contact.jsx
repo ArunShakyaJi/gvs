@@ -89,10 +89,10 @@ const Form = () => {
     <>
       <div className="bg-gradient-to-tr from-zinc-50 to-blue-700 py-10 md:py-16">
         <div className="flex flex-col justify-center items-center lg:flex-row bg-[#eefaff] rounded-3xl shadow-lg md:mx-16 lg:mx-44 mx-2">
-          <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center" data-aos="fade-up">
+          <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center z-none" data-aos="fade-up">
             <img
               src="/contactImage.png"
-              className="transform scale-x-[-1] w-auto h-auto max-w-[400px] z-none"
+              className="transform scale-x-[-1] w-auto h-auto max-w-[400px] "
               alt="Contact"
             />
             <div className="w-[350px] flex flex-col">
