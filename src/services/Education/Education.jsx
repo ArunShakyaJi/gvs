@@ -221,11 +221,11 @@ const AdditionalContent = () => {
                 </span>
               </div>
               <div
-                className="flex justify-center items-center border-b border-r shadow-blue-left-bottom border-black p-5"
+                className="flex justify-start items-center border-b border-r shadow-blue-left-bottom border-black p-5"
                 data-aos="fade-up"
               >
                 <img
-                  src="/1.png"
+                  src="/DueDeligence/65.png"
                   className="w-auto max-w-[44px] mr-4"
                   alt="Icon 2"
                 />
@@ -234,11 +234,11 @@ const AdditionalContent = () => {
                 </span>
               </div>
               <div
-                className="flex justify-center items-center border-b border-r shadow-blue-left-bottom border-black p-5"
+                className="flex justify-start items-center border-b border-r shadow-blue-left-bottom border-black p-5"
                 data-aos="fade-up"
               >
                 <img
-                  src="/1.png"
+                  src="/DueDeligence/66.png"
                   className="w-auto max-w-[44px] mr-4"
                   alt="Icon 3"
                 />
@@ -247,11 +247,11 @@ const AdditionalContent = () => {
                 </span>
               </div>
               <div
-                className="flex justify-center items-center border-b border-r shadow-blue-left-bottom border-black p-5"
+                className="flex justify-start items-center border-b border-r shadow-blue-left-bottom border-black p-5"
                 data-aos="fade-up"
               >
                 <img
-                  src="/1.png"
+                  src="/DueDeligence/67.png"
                   className="w-auto max-w-[44px] mr-4"
                   alt="Icon 4"
                 />

@@ -34,7 +34,7 @@ function PreviousEmployement() {
               <div className="flex mx-10 md:mx-16 w-1/2">
                 <p className="font-semibold text-xl">
                  <span className="font-bold text-xl">20+</span>  <br />
-                  Multinational businesses have used Cashban
+                  Multinational businesses have used GVS
                 </p>
               </div>
               <div className="flex mx-10 w-1/2">
