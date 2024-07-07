@@ -26,7 +26,7 @@ const BackgrounCheck = () => {
           We provide various service to reduce fraud and build successful relationships based on trust. 
           </p>
         </div>
-        <div className='flex  flex-col md:flex-row justify-center items-center  px-16 md:px-0  cursor-pointer'>
+        <div className='flex  flex-col md:flex-row justify-center items-center  px-6  md:px-0  cursor-pointer'>
           <div className='w-full md:w-1/3  text-2xl md:text-xl  md:px-24 '>
           <Link to='/contact-us'>
             <div className='flex   justify-left items-center  mb-8' data-aos="fade-up">

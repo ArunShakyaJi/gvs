@@ -24,7 +24,7 @@ function Location() {
           <h1 className="text-4xl font-bold mb-2 text-blue-500 " data-aos="fade-up">Genuine Verification Service</h1>
           <div className="flex items-center mb-2" data-aos="fade-up">
             <MdEmail className="mr-2 text-blue-500 size-8" />
-            <span className='md:text-2xl my-5 font-[Rubik] text-lg'  >yogeshsbist@genuineservices.co.in</span>
+            <span className='md:text-2xl  my-5 font-[Rubik] text-lg'  >yogeshsbist@genuineservices.co.in</span>
           </div>
           <div className="flex items-center" data-aos="fade-up">
             <FaPhone className="mr-2 text-blue-500 size-8" />
