@@ -22,7 +22,7 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <nav className="shadow-md drop-shadow-sm z-50">
+      <nav className="shadow-md drop-shadow-sm z-[99] ">
         <div className="bg-[#fdfdfd] ">
           <div className="flex items-center font-medium justify-around ">
             <div className="z-50  p-1 md:w-auto w-full flex justify-between items-center mr-5">
@@ -62,7 +62,9 @@ function Navbar() {
             >
               <li>
                 <Link to="/" className="py-4 px-4 inline-block">
-                  <h1 className="text-gray-700 hover:text-primary font-semibold">
+                  <h1 className="text-gray-700 hover:text-primary font-semibold"  onClick={() => {
+                  setOpen(!open);
+                }} >
                     Home
                   </h1>
                 </Link>
@@ -111,7 +113,7 @@ function Navbar() {
                                 {/* //pointer */}
                                 <div className="w-4 h-4 left-10 absolute mt-1  bg-white rotate-45"></div>
                               </div>
-                              <div className="bg-white shadow rounded grid grid-cols-2 z-96 mr-10">
+                              <div className="bg-white shadow rounded grid grid-cols-2 z-40 mr-10">
                                 {link.sublink.map((mlink, mindex) => (
                                   <li
                                     key={mindex}
@@ -140,7 +142,7 @@ function Navbar() {
                         {link.submenu && (
                           <div>
                             {link.sublink.map((slink, sindex) => (
-                              <li key={sindex} className="py-2 pl-14">
+                              <li key={sindex} className="py-2 pl-14 z-48">
                                 <Link to={slink.route}>
                                   <h1
                                     className="font-semibold"

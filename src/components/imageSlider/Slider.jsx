@@ -107,7 +107,7 @@ const Text = styled.div`
   margin-bottom: 10px;
   color: #02203c;
   overflow-x: hidden;
-  padding-left: 100px;
+  
   font-family: 'Poppins', sans-serif;
 `;
 
@@ -116,7 +116,7 @@ const Note = styled.div`
   font-weight: 350;
   margin-bottom: 40px;
   color: #7c8e9a;
-    padding-left: 100px;
+
 `;
 
 const Marquee = styled.div`

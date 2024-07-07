@@ -12,7 +12,7 @@ const Main = () => {
     });
   })
   return (
-    <div className=' bg-[#f7f7f7] sm:mb-0'> 
+    <div className=' bg-[#f7f7f7] sm:mb-0 overflow-y-scroll no-scrollbar'> 
       <div className='flex flex-col md:flex-row justify-center items-start   sm:mx-6'>
         <div className=' w-full md:w-40vw  px-10  md:10 lg:px-16 '>
         <div className='pt-24'>

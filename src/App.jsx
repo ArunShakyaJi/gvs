@@ -16,7 +16,7 @@ function App() {
     //     <Route path='/education' element={<Education />} />
     //   </Routes>
     // </Router>
-    <div className='overflow-x-hidden'>
+    <div >
     <Navbar />
     <main>
     <Outlet />

@@ -10,7 +10,7 @@ import Location from '../components/Location'
 const Home = () => {
   return (
     <>
-        <div >
+        <div  >
         <Main />
         <Info />
         <Whygvs />

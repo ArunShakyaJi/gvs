@@ -88,8 +88,8 @@ const Form = () => {
   return (
     <>
       <div className="bg-gradient-to-tr from-zinc-50 to-blue-700 py-10 md:py-16">
-        <div className="flex flex-col justify-center items-center lg:flex-row bg-[#eefaff] rounded-3xl shadow-lg md:mx-16 lg:mx-44 mx-2">
-          <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center z-none" data-aos="fade-up">
+        <div className="flex flex-col justify-center items-center lg:flex-row bg-[#eefaff] rounded-3xl shadow-lg md:mx-16 lg:mx-44 ">
+          <div className="w-full md:w-1/2 p-4 flex flex-col justify-center items-center object-fit " data-aos="fade-up">
             <img
               src="/contactImage.png"
               className="transform scale-x-[-1] w-auto h-auto max-w-[400px] "

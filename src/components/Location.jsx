@@ -20,15 +20,15 @@ function Location() {
       {/* Main content */}
       <div className="flex flex-col  md:flex-row w-full max-w-screen-xl gap-2 ">
         {/* Left side */}
-        <div className="w-full md:w-1/2 flex flex-col justify-center items-start  mx-5">
+        <div className="w-full md:w-1/2 flex flex-col justify-center items-start ">
           <h1 className="text-4xl font-bold mb-2 text-blue-500 " data-aos="fade-up">Genuine Verification Service</h1>
           <div className="flex items-center mb-2" data-aos="fade-up">
             <MdEmail className="mr-2 text-blue-500 size-8" />
-            <span className='text-2xl my-5 font-[Rubik]'  >yogeshsbist@genuineservices.co.in</span>
+            <span className='md:text-2xl my-5 font-[Rubik] text-lg'  >yogeshsbist@genuineservices.co.in</span>
           </div>
           <div className="flex items-center" data-aos="fade-up">
             <FaPhone className="mr-2 text-blue-500 size-8" />
-            <span className='text-2xl font-[Rubik]' >+91 9871476291</span>
+            <span className='md:text-2xl text-lg  font-[Rubik]' >+91 9871476291</span>
           </div>
         </div>
 
