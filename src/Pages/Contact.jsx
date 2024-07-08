@@ -259,7 +259,7 @@ const Form = () => {
                       Submit
                     </button>
                   )}
-                  <ToastContainer />
+                  <ToastContainer autoClose={2000}  />
                 </div>
               </form>
             </div>

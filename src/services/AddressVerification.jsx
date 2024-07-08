@@ -165,7 +165,7 @@ export default function Education() {
               <FaLongArrowAltRight   className="rotate-90 md:rotate-0 m-4 w-10" />
             </div>
             <div className="flex justify-center  items-center flex-col md:flex-row ">
-              <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-[300px] max-w-[300px] h-auto px-3 py-3 rounded-xl">
+              <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-auto max-w-[300px] h-auto px-3 py-3 rounded-xl">
               <img src="/AddressVerification/27.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">Period of stay is ensured.</span>
               </div>
@@ -213,7 +213,7 @@ export default function Education() {
               <FaLongArrowAltRight   className="rotate-90 md:rotate-0 m-4 w-10" />
             </div>
             <div className="flex justify-center  items-center flex-col md:flex-row ">
-              <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-[300px] max-w-[300px] h-auto px-3 py-3 rounded-xl">
+              <div className="flex justify-start items-center gap-x-4 border-dashed border-2 border-green-600 w-auto max-w-[300px] h-auto px-3 py-3 rounded-xl">
               <img src="/AddressVerification/31.png" className="w-auto max-w-8"/>
               <span className="text-[12px] font-bold">The photo samples of their residence are captured and submitted </span>
               </div>
