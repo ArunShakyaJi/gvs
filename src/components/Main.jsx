@@ -12,10 +12,10 @@ const Main = () => {
     });
   })
   return (
-    <div className=' bg-[#f7f7f7] sm:mb-0 overflow-y-scroll no-scrollbar overflow-hidden'> 
-      <div className='flex flex-col md:flex-row justify-center items-start   sm:mx-6'>
-        <div className=' w-full md:w-1/2  px-10  md:10 lg:px-16 '>
-        <div className='pt-24'>
+    <div className=' bg-[#f7f7f7] sm:mb-0 overflow-y-scroll no-scrollbar overflow-hidden ' > 
+      <div className='flex flex-col md:flex-row justify-center items-start   sm:mx-6 '>
+        <div className=' w-full md:w-1/2  px-10  md:10 lg:px-16 my-8 md:my-16  '>
+        <div className=''>
           <p className='text-slate-600 font-bold text-2xl ' data-aos="fade-up">Genuine Verification Service</p> 
         <h1 className='text-5xl md:text-7xl font-[Roboto] font-bold text-[#005b96] pb-4' data-aos="fade-up">GVS Your Shield Against Fraud </h1>
         {/* <h1 className='text-5xl md:text-7xl  pb-4 font-[Roboto] font-bold drop-shadow text-[#005b96]'>Welcome to GVS</h1> */}
