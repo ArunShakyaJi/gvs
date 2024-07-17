@@ -12,7 +12,7 @@ const Main = () => {
     });
   })
   return (
-    <div className=' bg-[#f7f7f7] sm:mb-0 overflow-y-scroll no-scrollbar'> 
+    <div className=' bg-[#f7f7f7] sm:mb-0 overflow-y-scroll no-scrollbar overflow-hidden'> 
       <div className='flex flex-col md:flex-row justify-center items-start   sm:mx-6'>
         <div className=' w-full md:w-1/2  px-10  md:10 lg:px-16 '>
         <div className='pt-24'>
@@ -23,7 +23,7 @@ const Main = () => {
         </div>
           <p className='text-sm md:text-2xl  font-[Poppins] font-semibold py-12  ' data-aos="fade-up">Ensure the authenticity of your workforce with our reliable background verification services.</p>
           <Link to='/contact-us' data-aos="fade-up">
-              <button className="bg-blue-600 hover:bg-blue-800 text-white  font-bold py-4 px-4  my-10 rounded-3xl text-3xl ">
+              <button className="bg-blue-600 hover:bg-blue-800 text-white  font-bold py-4 px-4  my-10 rounded-3xl text-3xl " data-aos="fade-up">
                Verify Now
               </button>
               </Link>
