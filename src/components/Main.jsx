@@ -23,7 +23,7 @@ const Main = () => {
         </div>
           <p className='text-sm md:text-2xl  font-[Poppins] font-semibold py-12  ' data-aos="fade-up">Ensure the authenticity of your workforce with our reliable background verification services.</p>
           <Link to='/contact-us' data-aos="fade-up">
-              <button className="bg-blue-600 hover:bg-blue-800 text-white  font-bold py-4 px-4  my-10 rounded-3xl text-3xl " data-aos="fade-up">
+              <button className="bg-blue-600 hover:bg-blue-800 text-white  font-bold py-4 px-4  my-10 rounded-3xl text-3xl ">
                Verify Now
               </button>
               </Link>
