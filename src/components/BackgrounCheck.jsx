@@ -18,7 +18,7 @@ const BackgrounCheck = () => {
       
     });})
   return (
-    <div className='bg-white h-auto   overflow-hidden'>
+    <div className='bg-white h-auto flex flex-col justify-center items-center  overflow-hidden'>
       <div className='container  py-12'>
         <div className='mb-8 flex flex-col justify-center items-center '>
           <h1 className='text-4xl font-bold text-gray-600' data-aos="fade-up">Our Services</h1>

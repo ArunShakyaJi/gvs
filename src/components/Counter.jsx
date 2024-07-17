@@ -21,9 +21,9 @@ function Counter() {
        
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 text-center">
           <div className="text-center" data-aos="fade-up">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-red-600" >+
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-red-600" >
               {
-                counter && <CountUp start={0} end={2010} duration={2} delay={0}/>
+                counter && <><h1>2010</h1></>
               }
             </h1>
             <p className="text-base md:text-xl lg:text-2xl font-medium text-gray-700" >Founded</p>
@@ -31,7 +31,7 @@ function Counter() {
           <div className="text-center" data-aos="fade-up">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-red-600">+
              {
-              counter &&  <CountUp start={0} end={9000000} duration={2} delay={0} useIndianSeparators />
+              counter &&  <CountUp start={0} end={900000} duration={2} delay={0} useIndianSeparators />
              }
             </h1>
             <p className="text-base md:text-xl lg:text-2xl font-medium text-gray-700">Reports Created</p>

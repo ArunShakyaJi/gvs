@@ -18,7 +18,7 @@ const Navlinks = () => {
         <div key={index}>
           <div className="px-3 text-left md:cursor-pointer group">
             <h1
-              className="py-4 flex flex-row justify-between items-center font-semibold md:pr-0 pr-5 text-gray-600 hover:text-primary "
+              className="py-4 flex flex-row justify-between items-center text-[16px] font-semibold md:pr-0 pr-5 text-gray-600 hover:text-primary "
               onClick={() => heading !== link.name ? setHeading(link.name) : setHeading('')}
             >
               <NavLink to={link.route}>

@@ -37,7 +37,7 @@ export default function Tenant() {
             </ul>
 
             <div className=' lg:my-10  '>
-              <Link to='/contact-us'>
+              <Link to='/tennent-contact'>
               <button className='border-4 bg-blue-600 hover:bg-blue-800 mt-8 mb-4 lg:text-3xl lg:py-2 lg:ml-8 text-white px-8 rounded-[6px]'>Verify Your Tenant</button>
               </Link>
               </div>

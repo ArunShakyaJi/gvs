@@ -26,7 +26,9 @@ function Navbar() {
         <div className="bg-[#fdfdfd] ">
           <div className="flex items-center font-medium justify-around ">
             <div className="z-50  p-1 md:w-auto w-full flex justify-between items-center mr-5">
+              <Link to='/'>
               <Logo />
+              </Link>
               <div
                 className="text-3xl md:hidden cursor-pointer "
                 onClick={() => {
@@ -41,7 +43,7 @@ function Navbar() {
               <li>
                 <Link
                   to={"/"}
-                  className="text-gray-600 font-semibold hover:text-primary  px-4 inline-block"
+                  className="text-gray-600 text-[16px] font-semibold hover:text-primary  px-4 inline-block"
                 >
                   Home
                 </Link>
@@ -64,7 +66,7 @@ function Navbar() {
             >
               <li>
                 <Link to="/" className="py-4 px-4 inline-block">
-                  <h1 className="text-gray-700 hover:text-primary font-semibold"  onClick={() => {
+                  <h1 className="text-gray-700  hover:text-primary font-semibold"  onClick={() => {
                   setOpen(!open);
                 }} >
                     Home

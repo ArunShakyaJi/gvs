@@ -52,7 +52,6 @@ const Form = () => {
       }
 
       const corporateEmails = [
-        "@gmail.com",
         "@yahoo.com",
         "@outlook.com",
         "@hotmail.com",

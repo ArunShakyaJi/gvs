@@ -22,6 +22,7 @@ import Driver from './Solutions/DriverVerification.jsx'
 import Background from './components/background.jsx'
 import HouseKeeper from './Solutions/HouseKeeper.jsx'
 import Tennent from './Solutions/Tenant.jsx'
+import TennantConstact from './Pages/TennantContact.jsx'
 
 const router = createBrowserRouter([
   {
@@ -104,6 +105,10 @@ const router = createBrowserRouter([
         {
           path: '/solutions/tenant-verification',
           element: <Tennent />
+        },
+        {
+          path: '/tennent-contact',
+          element: <TennantConstact />
         }
     ]
 },
