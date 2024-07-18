@@ -30,7 +30,7 @@ const Main = () => {
         </div>
         <div className='w-screen md:w-1/2 flex items-start  my-auto ' data-aos="fade-up"> 
           {/* <img className='w-auto md:w-[700px]  h-auto  md:my-0 mb-0' src='./mainImage.png' /> */}
-          <img className='w-auto md:w-[650px] ' src='./frame2.png' />
+          <img className='w-auto md:w-[650px] mt-0 ' src='./frame2.png' />
         </div>
       </div>
     </div>
