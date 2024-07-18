@@ -21,7 +21,7 @@ function Location() {
       <div className="flex flex-col  md:flex-row w-full max-w-screen-xl gap-2 px-6 ">
         {/* Left side */}
         <div className="w-full md:w-1/2 flex flex-col justify-center items-start ">
-          <h1 className="text-4xl font-bold mb-2 text-blue-500 " data-aos="fade-up">Genuine Verification Service</h1>
+          <h1 className="text-2xl md:text-4xl font-bold mb-2 text-blue-500 " data-aos="fade-up">Genuine Verification Service</h1>
           <div className="flex items-center mb-2" data-aos="fade-up">
             <MdEmail className="mr-2 text-blue-500 size-8" />
             <span className='md:text-xl  my-5 font-[Rubik] text-sm font-semibold'>support@genuineservice.com</span>

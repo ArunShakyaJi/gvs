@@ -22,7 +22,7 @@ const BackgrounCheck = () => {
       <div className='container  py-12'>
         <div className='mb-8 flex flex-col justify-center items-center '>
           <h1 className='text-4xl font-bold text-gray-600' data-aos="fade-up">Our Services</h1>
-          <p className='text-[#3faffa] font-[Rubik] text-xl font-regular shadow-custom-red mt-2 px-16' data-aos="fade-up">
+          <p className='text-[#3faffa] font-[Rubik] text-lg md:text-xl font-regular shadow-custom-red mt-2 px-16' data-aos="fade-up">
           We provide various service to reduce fraud and build successful relationships based on trust. 
           </p>
         </div>
@@ -31,25 +31,25 @@ const BackgrounCheck = () => {
           <Link to='/contact-us'>
             <div className='flex   justify-left items-center  mb-8' data-aos="fade-up">
               <BsPersonFillCheck className=' text-4xl text-black mr-3'/>
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline' >Identity Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] md:font-semibold hover-underline' >Identity Verification</p>
             </div>
             </Link>
             <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <FaBuilding className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline text-left' >Previous Employment Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline text-left' >Previous Employment Verification</p>
             </div>
             </Link>
             <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <RiCriminalFill className='text-4xl text-black mr-3' />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline' >Criminal Record</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Criminal Record</p>
             </div>
             </Link>
             <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <SlPeople className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline' >Reference Check</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Reference Check</p>
             </div>
             </Link>
           </div>
@@ -60,25 +60,25 @@ const BackgrounCheck = () => {
           <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <FaHome className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold text-left hover-underline' >Address Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold text-left hover-underline' >Address Verification</p>
             </div>
             </Link>
             <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <FaBookReader className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline' >Education Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Education Verification</p>
             </div>
             </Link>
             <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <RiMoneyRupeeCircleFill className='text-5xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline' >Financial Due Diligence</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Financial Due Diligence</p>
             </div>
             </Link>
             <Link to='/contact-us'>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <MdCreditScore className='text-5xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] font-semibold hover-underline' >Credit Check</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Credit Check</p>
             </div>
             </Link>
           </div>
