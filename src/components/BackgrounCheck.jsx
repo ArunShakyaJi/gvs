@@ -22,7 +22,7 @@ const BackgrounCheck = () => {
       <div className='container  py-12'>
         <div className='mb-8 flex flex-col justify-center items-center '>
           <h1 className='text-4xl font-bold text-gray-600' data-aos="fade-up">Our Services</h1>
-          <p className='text-[#3faffa] font-[Rubik] text-lg md:text-xl font-regular shadow-custom-red mt-2 px-16' data-aos="fade-up">
+          <p className='text-[#3faffa] font-[Rubik] text-sm  md:text-xl font-regular shadow-custom-red mt-2 px-16' data-aos="fade-up">
           We provide various service to reduce fraud and build successful relationships based on trust. 
           </p>
         </div>
