@@ -17,6 +17,10 @@ const BackgrounCheck = () => {
       duration: 1000,
       
     });})
+
+    const scrollToTop = () => {
+      window.scrollTo(0, 0)
+  }
   return (
     <div className='bg-white h-auto flex flex-col justify-center items-center  overflow-hidden'>
       <div className='container  py-12'>
@@ -28,28 +32,28 @@ const BackgrounCheck = () => {
         </div>
         <div className='flex  flex-col md:flex-row justify-center items-center  px-6  md:px-0  cursor-pointer'>
           <div className='w-full md:w-1/3  text-2xl md:text-xl  md:px-24 '>
-          <Link to='/contact-us'>
-            <div className='flex   justify-left items-center  mb-8' data-aos="fade-up">
+          <Link to='/service/identity-verification' onClick={scrollToTop}>
+            <div className='flex   justify-left items-center  mb-8' data-aos="fade-up" >
               <BsPersonFillCheck className=' text-4xl text-black mr-3'/>
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] md:font-semibold hover-underline' >Identity Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] text-lg  font-semibold hover-underline' >Identity Verification</p>
             </div>
             </Link>
-            <Link to='/contact-us'>
+            <Link to= '/service/previous-employment-check' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <FaBuilding className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline text-left' >Previous Employment Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  text-lg font-semibold hover-underline text-left' >Previous Employment Verification</p>
             </div>
             </Link>
-            <Link to='/contact-us'>
+            <Link to='/service/criminal-check' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <RiCriminalFill className='text-4xl text-black mr-3' />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Criminal Record</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  text-lg font-semibold hover-underline' >Criminal Record</p>
             </div>
             </Link>
-            <Link to='/contact-us'>
+            <Link to='/service/reference-check' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <SlPeople className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Reference Check</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  text-lg font-semibold hover-underline' >Reference Check</p>
             </div>
             </Link>
           </div>
@@ -57,28 +61,28 @@ const BackgrounCheck = () => {
             <img src='./Home.jpg' alt='Client' className=' mx-10  w-96 h-auto' />
           </div>
           <div className='w-full md:w-1/3  text-2xl md:text-xl'>
-          <Link to='/contact-us'>
+          <Link to='/service/address-verification' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <FaHome className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold text-left hover-underline' >Address Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  text-lg font-semibold text-left hover-underline' >Address Verification</p>
             </div>
             </Link>
-            <Link to='/contact-us'>
+            <Link to='/education-service' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <FaBookReader className='text-4xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Education Verification</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  text-lg font-semibold hover-underline' >Education Verification</p>
             </div>
             </Link>
-            <Link to='/contact-us'>
+            <Link to='/service/financial-due-check' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <RiMoneyRupeeCircleFill className='text-5xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Financial Due Diligence</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik] text-lg font-semibold hover-underline' >Financial Due Diligence</p>
             </div>
             </Link>
-            <Link to='/contact-us'>
+            <Link to='/service/credit-check' onClick={scrollToTop}>
             <div className='flex justify-left items-center mb-8' data-aos="fade-up">
               <MdCreditScore className='text-5xl text-black mr-3'  />
-              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  md:font-semibold hover-underline' >Credit Check</p>
+              <p className='text-blue-500 hover:text-blue-700 font-[Rubik]  text-lg font-semibold hover-underline' >Credit Check</p>
             </div>
             </Link>
           </div>

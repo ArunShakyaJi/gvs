@@ -32,7 +32,7 @@ function App() {
   const scroll = new LocomotiveScroll();
 
   return (
-    <div className="flex flex-col justify-center items-center" >
+    <div className="flex flex-col justify-center items-center " >
       <AppContainer>
       <Wrapper>
         <Text data-scroll data-scroll-speed="1"  data-aos="fade-up">Our Clients</Text>

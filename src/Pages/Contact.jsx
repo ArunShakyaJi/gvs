@@ -40,7 +40,7 @@ const Form = () => {
       const checkPhone = form.phone.value;
 
       if (checkEmail === "" || checkPhone === "") {
-        alert("Please fill all the fields");
+        alert("Please fill all the details properly");
         setLoading(false);
         return;
       }

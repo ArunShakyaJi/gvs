@@ -28,7 +28,8 @@
     width: 100%;
   }
 
-
-
-
+  .no-scrollbar::-webkit-scrollbar {
+    display: none; /* WebKit (Chrome, Safari, etc.) */
+  }
+  
 }
