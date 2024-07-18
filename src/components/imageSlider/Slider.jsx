@@ -35,7 +35,7 @@ function App() {
     <div className="flex flex-col justify-center items-center " >
       <AppContainer>
       <Wrapper>
-        <Text data-scroll data-scroll-speed="1"  data-aos="fade-up">Our Clients</Text>
+        <Text data-scroll data-scroll-speed="0.5"  data-aos="fade-up">Our Clients</Text>
         <Note  data-aos="fade-up">Our customers have gotten offers from awesome companies.</Note>
         <Marquee  data-aos="fade-up">
           <MarqueeGroup>
