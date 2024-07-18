@@ -14,7 +14,7 @@ const Main = () => {
   return (
     <div className=' bg-[#f7f7f7] sm:mb-0  ' > 
       <div className='flex flex-col md:flex-row justify-center items-start   sm:mx-6 '>
-        <div className=' w-full md:w-1/2  px-10 py-16  lg:px-16   '>
+        <div className=' w-full md:w-1/2  px-10   lg:px-16  py-10 '>
         <div className=''>
           <p className='text-slate-600 font-bold text-2xl ' data-aos="fade-up">Genuine Verification Service</p> 
         <h1 className='text-5xl md:text-7xl font-[Roboto] font-bold text-[#005b96] pb-4' data-aos="fade-up">GVS Your Shield Against Fraud </h1>
@@ -28,9 +28,9 @@ const Main = () => {
               </button>
               </Link>
         </div>
-        <div className='w-screen md:w-1/2 flex items-center justify-center my-auto ' data-aos="fade-up"> 
+        <div className='w-screen md:w-1/2 flex items-start  my-auto ' data-aos="fade-up"> 
           {/* <img className='w-auto md:w-[700px]  h-auto  md:my-0 mb-0' src='./mainImage.png' /> */}
-          <img className='w-auto md:w-[650px] rounded-xl   h-auto  md:my-0 mb-0' src='./frame2.png' />
+          <img className='w-auto md:w-[650px] ' src='./frame2.png' />
         </div>
       </div>
     </div>
